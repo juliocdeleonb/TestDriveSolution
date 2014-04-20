@@ -60,8 +60,14 @@ namespace HelloWorld
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050001
+			public const int buttonPopupMessage = 2131034113;
+			
 			// aapt resource value: 0x7f050000
 			public const int myButton = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int textViewMessage = 2131034114;
 			
 			static Id()
 			{
@@ -92,11 +98,17 @@ namespace HelloWorld
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
-			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int PopMessage = 2130968577;
+			
+			// aapt resource value: 0x7f040003
+			public const int TextViewMessage = 2130968579;
+			
+			// aapt resource value: 0x7f040002
+			public const int app_name = 2130968578;
 			
 			static String()
 			{

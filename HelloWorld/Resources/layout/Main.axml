@@ -4,11 +4,22 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<Button  
+    <Button  
     android:id="@+id/myButton"
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content" 
-    android:text="@string/hello"
+    android:text="@string/Hello"
+    />
+    <Button 
+    android:id="@+id/buttonPopupMessage"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/PopMessage"
+    />
+    <TextView 
+    android:id="@+id/textViewMessage"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/TextViewMessage"
     />
 </LinearLayout>
-
