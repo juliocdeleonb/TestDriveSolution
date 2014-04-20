@@ -11,5 +11,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.HelloWorld AndroidDeviceId-Debug="015d210a1318180c" />
+  <MonoDevelop.Ide.ItemProperties.HelloWorld AndroidDeviceId-Debug="015d210a1318180c" MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
 </Properties>
