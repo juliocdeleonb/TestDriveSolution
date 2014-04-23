@@ -9,23 +9,19 @@ using Android.OS;
 namespace HelloMultiScreen
 {
 	[Activity (Label = "HelloMultiScreen", MainLauncher = true)]
-	public class MainActivity : Activity
+	public class FirstActivity : Activity
 	{
-		int count = 1;
-
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-
-			// Set our view from the "main" layout resource
+			//Use UI created in Main.axml
 			SetContentView (Resource.Layout.Main);
 
-			// Get our button from the layout resource,
-			// and attach an event to it
-			Button button = FindViewById<Button> (Resource.Id.myButton);
-			
-			button.Click += delegate {
-				button.Text = string.Format ("{0} clicks!", count++);
+			var showSecond = FindViewById<Button> (Resource.Id.showSecond);
+			showSecond.Click += (sender, e) => {
+				var second = new Intent(this, typeof(SecondActivity));
+				second.PutExtra("FirstData", "Data from FirstActivity");
+				StartActivity(second);
 			};
 		}
 	}

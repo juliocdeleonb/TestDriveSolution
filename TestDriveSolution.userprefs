@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorld\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="HelloWorld\MainActivity.cs" Line="45" Column="4" />
-      <File FileName="HelloWorld\Resources\layout\Main.axml" Line="14" Column="41" />
-      <File FileName="HelloWorld\Resources\values\Strings.xml" Line="6" Column="35" />
+      <File FileName="HelloMultiScreen\FirstActivity.cs" Line="25" Column="6" />
+      <File FileName="HelloMultiScreen\Resources\values\Strings.xml" Line="3" Column="1" />
+      <File FileName="HelloMultiScreen\SecondActivity.cs" Line="28" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -12,4 +12,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.HelloWorld AndroidDeviceId-Debug="015d210a1318180c" MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.HelloMultiScreen AndroidDeviceId-Debug="015d210a1318180c" MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
 </Properties>
